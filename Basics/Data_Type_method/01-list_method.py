@@ -27,7 +27,7 @@ exploring list methods– assignment
 """
 empty=[]
 
-print("Enter 10 Element :")
+
 for i in range(10):
     element=int(input("Enter element : "))
     empty.append(element)
