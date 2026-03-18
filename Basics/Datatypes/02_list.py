@@ -68,4 +68,15 @@ biggest=0
 for i in my_list:
     if i > biggest:
         biggest = i
-print(biggest)
+# print(biggest)
+
+
+# enumalator jab indexing aur value print karne ho tab use karte hai
+for index,value in enumerate(my_list,start=1):
+    print(index,value) 
+
+# zip jab do list ko jorna ho to use kare
+names=['maruf','philips','jonh']
+scores=[100,90,67]
+for name,score in zip(names,scores):
+    print(name,score)
